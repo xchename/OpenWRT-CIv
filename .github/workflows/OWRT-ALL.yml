@@ -2,15 +2,15 @@
 # Copyright (C) 2026 VIKINGYFY
 
 #CI项目
-name: OWRT-ALL
+#name: OWRT-ALL
 
 #CI计划
-on:
+#on:
   #自动编译：当Auto-Clean运行完成后
-  workflow_run:
-    workflows: ["Auto-Clean"]
-    types:
-      - completed
+ # workflow_run:
+    #workflows: ["Auto-Clean"]
+  #  types:
+   #   - completed
   #手动编译
   workflow_dispatch:
     inputs:
